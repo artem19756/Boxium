@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="Boxium — Telegram-бот и сообщество. Всё важное в одном месте.">
+  <title>Boxium — Telegram ecosystem</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" id="loader" aria-label="Загрузка Boxium">
+    <div class="loader-inner">
+      <img src="assets/gift-mark.png" alt="" class="loader-gift">
+      <div class="loader-word">Boxium<span>.</span></div>
+      <div class="loader-line"><i></i></div>
+      <div class="loader-caption">ПОДАРКИ. ВОЗМОЖНОСТИ. BOXIUM.</div>
+    </div>
+  </div>
+
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Boxium — главная">
+      <img src="assets/gift-mark.png" alt="" class="brand-icon">
+      <span>Boxium</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Основная навигация">
+      <button class="nav-link active" data-tab="home">Главная</button>
+      <button class="nav-link" data-tab="about">О проекте</button>
+      <button class="nav-link" data-tab="community">Сообщество</button>
+    </nav>
+    <a class="top-cta" href="https://t.me/boxiumbot" target="_blank" rel="noopener">Открыть бота <span>↗</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false"><i></i><i></i></button>
+  </header>
+
+  <main id="home">
+    <section class="hero panel-section active-section" data-section="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> TELEGRAM PROJECT</div>
+        <h1>Больше, чем<br><span class="outline">просто</span> бот.</h1>
+        <p class="hero-description">Boxium — твоя точка входа в мир Telegram-подарков, общения и новых возможностей.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="https://t.me/boxiumbot" target="_blank" rel="noopener">Запустить бота <span>↗</span></a>
+          <a class="button button-ghost" href="https://t.me/boxium" target="_blank" rel="noopener">Наш Telegram <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span>Создатель</span><a href="https://t.me/heroivan" target="_blank" rel="noopener">@heroivan ↗</a></div>
+      </div>
+      <div class="hero-art" aria-label="Логотип Boxium">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="logo-card">
+          <div class="logo-glow"></div>
+          <img src="assets/gift-mark.png" alt="Подарок Boxium">
+          <div class="logo-name">Boxium<span>.</span></div>
+          <div class="logo-caption">GIVE MORE. GET MORE.</div>
+        </div>
+        <div class="float-chip chip-top"><span class="chip-dot"></span> TELEGRAM ECOSYSTEM</div>
+        <div class="float-chip chip-bottom">EST. FOR COMMUNITY <b>✳</b></div>
+      </div>
+      <div class="scroll-note"><span></span> ЛИСТАЙ НИЖЕ</div>
+    </section>
+
+    <section class="quick-links" aria-label="Быстрые ссылки">
+      <a class="quick-card" href="https://t.me/boxiumbot" target="_blank" rel="noopener"><span class="quick-number">01 / BOT</span><span class="quick-title">Boxium Bot</span><span class="quick-arrow">↗</span><span class="quick-sub">Запусти бота в Telegram</span></a>
+      <a class="quick-card" href="https://t.me/boxium" target="_blank" rel="noopener"><span class="quick-number">02 / CHANNEL</span><span class="quick-title">Telegram Channel</span><span class="quick-arrow">↗</span><span class="quick-sub">Новости и обновления</span></a>
+      <a class="quick-card" href="https://t.me/boxiumtg" target="_blank" rel="noopener"><span class="quick-number">03 / CHAT</span><span class="quick-title">Community Chat</span><span class="quick-arrow">↗</span><span class="quick-sub">Общайся с участниками</span></a>
+    </section>
+
+    <section class="content-section panel-section" data-section="about" id="about">
+      <div class="section-kicker">01 — ABOUT BOXIUM</div>
+      <div class="section-heading"><h2>Один проект.<br><span>Много возможностей.</span></h2><p>Boxium объединяет инструменты и людей в привычном пространстве Telegram. Быстрый доступ — без лишнего шума.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">✳</div><div class="feature-index">01</div><h3>Просто</h3><p>Открывай нужные разделы в пару нажатий прямо в Telegram.</p></article>
+        <article class="feature-card"><div class="feature-icon">◈</div><div class="feature-index">02</div><h3>В одном месте</h3><p>Бот, канал и чат собраны на одной удобной странице.</p></article>
+        <article class="feature-card"><div class="feature-icon">↗</div><div class="feature-index">03</div><h3>Для людей</h3><p>Следи за обновлениями и оставайся на связи с сообществом.</p></article>
+      </div>
+    </section>
+
+    <section class="community-section panel-section" data-section="community" id="community">
+      <div class="community-box">
+        <div class="section-kicker">02 — JOIN THE COMMUNITY</div>
+        <h2>Залетай<br>в <span>Boxium.</span></h2>
+        <p>Выбирай, куда перейти: запустить бота, читать новости или общаться с комьюнити.</p>
+        <div class="community-actions">
+          <a class="button button-light" href="https://t.me/boxiumbot" target="_blank" rel="noopener">Бот <span>↗</span></a>
+          <a class="button button-ghost" href="https://t.me/boxium" target="_blank" rel="noopener">Канал <span>↗</span></a>
+          <a class="button button-ghost" href="https://t.me/boxiumtg" target="_blank" rel="noopener">Чат <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="footer-brand" href="#home"><img src="assets/gift-mark.png" alt=""> Boxium</a>
+    <span>© <span id="year"></span> BOXIUM. ALL RIGHTS RESERVED.</span>
+    <a href="https://t.me/heroivan" target="_blank" rel="noopener">OWNER: @heroivan ↗</a>
+  </footer>
+  <div class="mobile-nav" id="mobileNav">
+    <button class="nav-link active" data-tab="home">Главная</button><button class="nav-link" data-tab="about">О проекте</button><button class="nav-link" data-tab="community">Сообщество</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
